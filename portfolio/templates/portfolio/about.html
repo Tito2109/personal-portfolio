@@ -1,0 +1,11 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+
+<embed src="{% static '/portfolio/resume.pdf' %}" type="application/pdf" class="pdf-object">
+
+
+{% endblock %}
